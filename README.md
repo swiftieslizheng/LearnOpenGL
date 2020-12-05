@@ -8,4 +8,4 @@
 这种转换可根据虚拟相机的位置调整绘制对象的坐标。请务必注意，OpenGL ES 不会定义实际的相机对象，而是通过转换绘制对象的显示方式提供模拟相机的实用程序方法。相机视图转换可能仅在您确定 GLSurfaceView 时计算一次，也可能会根据用户操作或应用的功能动态变化。
 
 ### 2020/12/5
-***commit: *** 增加圆形，重写了GLRenderer，简化代码，添加抽象类BaseGLRenderer.kt
+**commit: ** 增加圆形，重写了GLRenderer，简化代码，添加抽象类BaseGLRenderer.kt
