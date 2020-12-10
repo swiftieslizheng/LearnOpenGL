@@ -25,7 +25,8 @@ class MyGLSurfaceView(context:Context, type:Int):GLSurfaceView(context) {
         }
 
         // Set the Renderer for drawing on the GLSurfaceView
-        setRenderer(renderer)
+//        setRenderer(renderer)
+        setRenderer(CubeGLRenderer())
     }
 
 }
