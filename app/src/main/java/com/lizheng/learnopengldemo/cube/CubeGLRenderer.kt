@@ -1,13 +1,14 @@
-package com.lizheng.learnopengldemo
+package com.lizheng.learnopengldemo.cube
 
 import android.opengl.GLES20
 import android.opengl.GLSurfaceView
 import android.opengl.Matrix
+import com.lizheng.learnopengldemo.cube.Cube
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 
 open class CubeGLRenderer: GLSurfaceView.Renderer {
-    private lateinit var cube:Cube
+    private lateinit var cube: Cube
     private val vPMatrix = FloatArray(16)
     private val projectionMatrix = FloatArray(16)
     private val viewMatrix = FloatArray(16)

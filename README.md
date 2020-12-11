@@ -7,3 +7,6 @@
 ### 2020/12/10
 **commit** 增加立方体，添加渲染程序类CubeGLRenderer.kt（暂时未复用BaseGLRenderer）
 - 启用深度测试：使用 glEnable(GL_DEPTH_TEST);
+
+### 2020/12/11
+**commit** 增加旋转效果和触摸事件相关逻辑

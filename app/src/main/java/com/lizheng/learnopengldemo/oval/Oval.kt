@@ -92,7 +92,6 @@ class Oval {
             GLES20.glAttachShader(it, fragmentShader)
             GLES20.glLinkProgram(it)
         }
-
     }
 
     fun draw(mvpMatrix: FloatArray){

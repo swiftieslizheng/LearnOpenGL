@@ -1,6 +1,8 @@
-package com.lizheng.learnopengldemo
+package com.lizheng.learnopengldemo.cube
 
 import android.opengl.GLES20
+import com.lizheng.learnopengldemo.COORDS_PER_VERTEX
+import com.lizheng.learnopengldemo.loadShader
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.FloatBuffer
